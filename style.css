@@ -10,7 +10,6 @@ body{
     background-image: url("Ocean for game.jpg");
     background-size: cover;
     border-radius: 5px;
-    height: 96vh;
 }
 
 
@@ -29,6 +28,7 @@ body{
     text-align: center;
     color: White;
     margin: auto;
+    border-radius: 10px;
   }
 
 .shop{
