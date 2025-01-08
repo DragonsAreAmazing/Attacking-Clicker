@@ -157,7 +157,9 @@ let Clicker = {
       let d = 0
       for (i in Clicker.upgrades) {
         if (Clicker.upgrades[i].hasun) {
-          document.querySelector('#upgrades').innerHTML += `<br> <button class="center3" onclick="thing_clicked('${i}'); Aps()">Practice ${Clicker.upgrades[i].name}</button> You have Practiced ${Clicker.upgrades[i].name} ${numberformat.format(Clicker.upgrades[i].amount)} times. It gives ${numberformat.format(Clicker.upgrades[i].APS)} APS per upgrade. You get ${numberformat.format(Clicker.upgrades[i].amount * Clicker.upgrades[i].APS)} APS From ${Clicker.upgrades[i].name}. Cost: ${numberformat.format(Clicker.upgrades[i].cost)} <br>`;
+          document.querySelector('#upgrades').innerHTML += `<br> <button onclick="thing_clicked('${i}'); Aps()">Practice ${Clicker.upgrades[i].name}</button> 
+          You have Practiced ${Clicker.upgrades[i].name} ${numberformat.format(Clicker.upgrades[i].amount)} times. It gives ${numberformat.format(Clicker.upgrades[i].APS)} APS per upgrade. 
+          You get ${numberformat.format(Clicker.upgrades[i].amount * Clicker.upgrades[i].APS)} APS From ${Clicker.upgrades[i].name}. Cost: ${numberformat.format(Clicker.upgrades[i].cost)} <br>`;
           d += Clicker.upgrades[i].APS * Clicker.upgrades[i].amount
         }
      
