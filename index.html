@@ -11,24 +11,24 @@
 
 
 <body onload="updatecount()">
-  <h1 class="basic" id="title">Attacking Game</h1>
-  <h2 class="basic" id="Attack">Your Attack Level is 0</h2>
-  <h2 class="basic" id="aps">APS: 0</h2>
-  <img class="center" onclick="Clicker.Attack++" id="img"
+  <h1 id="title">Attacking Game</h1>
+  <h2 id="Attack">Your Attack Level is 0</h2>
+  <h2 id="aps">APS: 0</h2>
+  <img onclick="Clicker.Attack++" id="img"
     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWvwqqIlv5immV1R7sAwPkXFP7OqBonKEumg:https://c4.wallpaperflare.com/wallpaper/710/757/315/fantasy-weapon-sword-the-witcher-wallpaper-preview.jpg&usqp=CAU">
   <br>
-  <button id="shop" onclick="hideOnShop(); shopOpen();" class="center3 biggerButton">Shop</button>  <div id="upgrades" class="upgrades center3"></div>
+  <button id="shop" onclick="hideOnShop(); shopOpen();">Shop</button>  <div id="upgrades"></div>
   <br>
   <br>
-  <a onclick="Rickrolled()" id="Rick" class="Rick center" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">More
+  <a onclick="Rickrolled()" id="Rick" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">More
     Attack</a>
-  <a href="https://www.codecademy.com/workspaces/645c127de1a0c2d73793bfda?preview=true" class="Rick center"
+  <a href="https://www.codecademy.com/workspaces/645c127de1a0c2d73793bfda?preview=true"
     target="_blank" id="sources">Sources</a>
-  <h1 class="basic" id="rick"></h1>
+  <h1 id="rick"></h1>
 
 
   <br>
-  <div id="acheivs" class="acheivs" style="width:400px; height:300px; overflow:scroll;"></div>
+  <div id="acheivs" style="width:400px; height:300px; overflow:scroll;"></div>
   <form id="pass">
     <label for="pswd">Enter your password: </label>
     <input type="password" id="pswd">
