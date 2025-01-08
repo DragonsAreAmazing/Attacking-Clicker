@@ -9,7 +9,7 @@ body{
     font-weight: bold;
     background-image: url("Ocean for game.jpg");
     background-size: cover;
-    border-radius: 5px;
+    border-radius: 12px;
 }
 
 
@@ -23,15 +23,19 @@ body{
     height: 30px;
   }
 
+#img{
+    border-radius: 24px
+}
 
-  .acheivs {
+
+  #acheivs {
     text-align: center;
     color: White;
     margin: auto;
     border-radius: 10px;
   }
 
-.shop{
+#shop{
     font-size: 20px;
     height: 25px;
     width: 60px;
@@ -39,53 +43,9 @@ body{
     margin:auto;
 }
 
-  .upgrades {
+  #upgrades {
     color: white;
     margin-top: 10px;
     width: 500px;
     text-align: center;
-  }
-
-
-  .cool {
-    margin-right: 10px;
-    margin-bottom: 10px;
-  }
-
-
-  .Rick {
-    color: darkred;
-    text-align: center;
-    font-weight: bold;
-    font-size: 30px;
-  }
-
-
-  .basic {
-    color: white;
-    text-align: center;
-  }
-
-
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-
-
-  .center2 {
-    text-align: center;
-  }
-
-
-  .center3 {
-  margin:0 auto;
-  display:block;
-  }
-
-
-  .biggerButton{
-    font-size: 24px;
   }
