@@ -9,7 +9,8 @@ body{
     font-weight: bold;
     background-image: url("Ocean for game.jpg");
     background-size: cover;
-    border-radius: 2px;
+    border-radius: 5px;
+    height: 96vh;
 }
 
 
@@ -25,10 +26,18 @@ body{
 
 
   .acheivs {
+    text-align: center;
     color: White;
-    font-size: 20px;
+    margin: auto;
   }
 
+.shop{
+    font-size: 20px;
+    height: 25px;
+    width: 60px;
+    text-align: center;
+    margin:auto;
+}
 
   .upgrades {
     color: white;
