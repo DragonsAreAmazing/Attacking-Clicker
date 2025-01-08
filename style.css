@@ -3,6 +3,15 @@ html {
     cursor:wait;
   }
 
+body{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-image: url("Ocean for game.jpg");
+    background-size: cover;
+    border-radius: 2px;
+}
+
 
   button {
     background: darkred;
